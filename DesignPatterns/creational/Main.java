@@ -33,6 +33,8 @@ public class Main {
         exporter.remove(TestData.GoFBook);
         exporter.export(System.out);
 
+        // *** also export data to file 'Export-Data.txt', have a look at it!. ขอบคุณครับ
+
 //        System.out.println(System.out.getClass());
     }
 }

@@ -13,7 +13,10 @@ public abstract class BookMetadataExporter extends BookCollection {
            bookMetadataFormatter.append(book);
        }
         String BookMetadata =  bookMetadataFormatter.getMetadataString();
-//        stream.println(BookMetadata);
+
+       // log
+        stream.println(BookMetadata);
+        // export to file
         File file = new File("Export-Data.txt");
         try {
             stream = new PrintStream(file);

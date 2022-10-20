@@ -1,0 +1,8 @@
+DO 									Do not
+- JSONBookMetadataFormatter implement BookMetadataFormatter  		- BookMetadataFormatter.java interface
+- BookMetadataExporter.java abstract extends BookCollection		- Book.java
+									- BookCollection.java
+									- BookMetadataFormatter.java
+									- CSVBookMetadataFormatter.java
+									- XMLBookMetadataFormatter.java
+									- BookMetadataFormatterFactory.java

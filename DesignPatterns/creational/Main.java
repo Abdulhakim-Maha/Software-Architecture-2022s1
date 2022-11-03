@@ -26,7 +26,7 @@ public class Main {
 
 
         // Expected usage
-        BookMetadataExporter exporter = new JSONBookMetadataExporter();
+        BookMetadataExporter exporter = new XMLBookMetadaExporter();
         exporter.add(TestData.sailboatBook);
         exporter.add(TestData.GoFBook);
         exporter.add(TestData.cleanArchBook);
